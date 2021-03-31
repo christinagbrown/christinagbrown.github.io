@@ -1,0 +1,112 @@
+/* Breakpoints to consider: laptops, tablets, phones 
+* Common one's we'll be using 576px, 768px, 992px, and 1200px
+*/
+
+
+/* 1200 */
+@media screen and (max-width: 1200px) {
+  .container{
+    padding: var(--base-px-xlg) calc(var(--base-px-xlg)*1.5);
+  }
+
+  .main-title {
+    font-size: 3.5em;
+  }
+}
+
+/* 992 */
+@media screen and (max-width: 992px) {
+  .container{
+    padding: var(--base-px-xlg);
+  }
+
+  .content {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .headings {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+
+  .landing img {
+    width: 150px;
+  }
+
+  .main-title {
+    font-size: 3em;
+  }
+
+  #typewriter{
+    font-size: 1.5em;
+  }
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    display: block;
+  }
+  
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    display: block;
+  }
+}
+
+
+/* 768 */
+@media screen and (max-width: 768px) {
+  .items {
+    grid-template-columns: repeat(1, 1fr)
+  }
+
+  .item .item-text-title {
+    font-size: 1.5em;
+  }
+
+  .item .item-text-desc {
+    font-size: 1em;
+    padding: calc(var(--base-px-sm)*1.5);
+  }
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    display: block;
+  }
+  
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    display: block;
+  }
+}
+
+
+/* 576 */
+@media screen and (max-width: 576px) {
+  .container{
+    padding: calc(var(--base-px-m)*1.5);
+  }
+
+  .main-title {
+    font-size: 2em;
+  }
+
+  #typewriter{
+    font-size: 1.15em;
+  }
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    display: block;
+  }
+  
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    display: block;
+  }
+}

@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+  /* PADDING & MARGINS */
+  --base-px-xs: 4px;
+  --base-px-sm: 8px;
+  --base-px-m: 24px;
+  --base-px-lg: 48px;
+  --base-px-xlg: 96px;
+
+  /* COLOR SCHEME */
+  --slate: #30393f;
+  --dark-slate:#22282c;
+  --green: #b1f4cf;
+  --purple: #9890e3;
+  --faint-pink: #ff7d974b;
+  --faint-purple: #8fa1fc8a;
+  --sunset-left: #734b6d;
+  --sunset-right: #6A82FB;
+}
+.navbar{
+  align-items: center;
+  display: flex;
+  padding: var(--base-px-sm) var(--base-px-sm);
+  text-transform: uppercase;
+  z-index: 100;
+
+}
+.menu-item-link{
+  text-decoration: none;
+  color: inherit;
+}
+.top-link {
+  transition: all .25s ease-in-out;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  display: inline-flex;
+   
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  margin: 0 3em 3em 0;
+  border-radius: 50%;
+  padding: .25em;
+  width: 70px;
+  height: 70px;
+  background-color: #F8F8F8;
+}
+.show {
+  visibility: visible;
+  opacity: 1;
+}
+ 
+.hide {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.hidden-sm { 
+  display: grid !important;
+  overflow: scroll;
+}
+.hidden-md {
+  display: grid !important;
+  overflow: scroll;
+}
+.hidden-xs {
+  display: grid !important;
+  overflow: scroll;
+  font-size: 70%;
+}
+
+#upButton {
+  fill: #000;
+  width: 24px;
+  height: 12px;
+ }
+  
+ #upButton:hover {
+  background-color: #E8E8E8;
+  fill: #000000;
+ }
+
+
+.u-plain-list{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.nav-list{
+  display: flex;
+  overflow: auto;
+}
+.menu-item{
+  backface-visibility: hidden;
+  font-size: 17px;
+  font-weight: 500;
+  /* line-height: 1; */
+  margin: 0 20px;
+  transition: opacity 0.3s ease-in-out;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  color: var(--slate);
+}
+
+
+h1 {
+  padding: var(--base-px-lg) 0;
+}
+
+p {
+  text-align: justify;
+}
+
+.container {
+  width: 100%;
+  padding: var(--base-px-lg) calc(2.25*var(--base-px-lg));
+  justify-content: center;
+  text-align: center;
+}
+
+/* Landing */
+.landing {
+  position: relative;
+  background: linear-gradient(to top, var(--sunset-left) 0%, var(--sunset-right) 100%);
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  color: whitesmoke;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  margin-bottom: var(--base-px-xlg);
+  z-index: 1000;
+}
+
+.headings {
+  text-align: right;
+  align-self: center;
+  padding-right: var(--base-px-m);
+}
+
+.main-title {
+  font-size: 4em;
+}
+
+#typewriter, .main-title {
+  padding: var(--base-px-sm);
+}
+
+#typewriter {
+  font-weight: 400;
+}
+.wave {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.b1, .b2 {
+  position: absolute;
+  width: 65vmax;
+}
+
+
+.hex1{
+  transform: translate(1em, 3em) rotate(-45deg);
+  fill: var(--faint-pink);
+}
+
+.hex2{
+  transform: translate(20em, 1em);
+  fill: url(#grad1);
+}
+.hex3{
+  transform: translate(0.5em, 0.25em);
+  fill: url(#grad1);
+}
+
+/*About*/
+.about h1{
+  text-align: left;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Contact */
+.contact {
+  background: linear-gradient(to top, var(--sunset-left) 0%, var(--sunset-right) 100%);
+  margin-top: var(--base-px-xlg);
+  color: whitesmoke;
+}
+
+.socials {
+  padding: calc(var(--base-px-m)*1.5);
+  display: flex;
+  justify-content: space-evenly;
+}
+
+a i {
+  color: var(--slate);
+  font-size: calc(var(--base-px-m)*1.5);
+}
+
+a i:hover {
+  color: var(--dark-slate);
+}
+
+/* Footer */
+footer {
+  background-color: var(--dark-slate);
+  color: white;
+  text-align: center;
+  padding: var(--base-px-sm);
+  font-size: 75%;
+}
+
+.landing img {
+  width: 100%;
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  display: none;
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  display: none;
+}

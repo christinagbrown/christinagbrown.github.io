@@ -1,0 +1,19 @@
+.work-item {
+    padding: var(--base-px-m) 0;
+}
+
+.work-headings {
+  display: flex;
+  padding: var(--base-px-sm) 0;
+  justify-content: space-between;
+}
+
+.work-time {
+  font-style: italic;
+  font-weight: 500;
+}
+
+.work-exp ul {
+  text-align: left;
+  padding-left: var(--base-px-m);
+}
