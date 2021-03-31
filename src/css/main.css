@@ -11,12 +11,12 @@
   /* COLOR SCHEME */
   --slate: #30393f;
   --dark-slate:#22282c;
-  --green: #b1f4cf;
-  --purple: #9890e3;
-  --faint-pink: #ff7d974b;
-  --faint-purple: #8fa1fc8a;
-  --sunset-left: #734b6d;
-  --sunset-right: #6A82FB;
+  --green: #b1f4cf9f;
+  --purple: #b6aeff;
+  --faint-pink: #8ffca68a;
+  --faint-purple: #a0ecffa8;
+  --sunset-left: #B1ADE2;
+  --sunset-right: #7DDFF8;
 }
 .navbar{
   align-items: center;
@@ -118,6 +118,9 @@ h1 {
   padding: var(--base-px-lg) 0;
 }
 
+.main-content h1 {
+  color: #4e6efc; font-family: 'Open Sans', sans-serif; font-size: 34px; font-weight: 300; line-height: 40px; margin: 0 0 16px; }
+
 p {
   text-align: justify;
 }
@@ -188,6 +191,7 @@ hr {
 .hex1{
   transform: translate(1em, 3em) rotate(-45deg);
   fill: var(--faint-pink);
+  opacity: 0.7;
 }
 
 .hex2{
@@ -254,7 +258,7 @@ footer {
   display: none;
 }
 
-.left {
+.left { 
   transform: rotate(135deg);
   -webkit-transform: rotate(135deg);
   display: none;
