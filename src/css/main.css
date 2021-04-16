@@ -222,6 +222,9 @@ hr {
   margin-top: var(--base-px-xlg);
   color: whitesmoke;
 }
+.contact > h1{
+  color: whitesmoke;
+}
 
 .socials {
   padding: calc(var(--base-px-m)*1.5);
