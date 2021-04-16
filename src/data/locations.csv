@@ -1,3 +1,20 @@
-name, location, year, lat, lon, pic
-Home, BC Canada, current, 53.7267, -127.6476, home.jpg
-Sydney, Australia, 2019, -33.811422, 151.213461, australia.jpg
+name,location,year,lat,lon,pic,likes
+Home,BC Canada,2019,53.7267,-127.6476,home.jpg,12
+Sydney,Australia,2019,-33.811422,151.213461,australia.jpg,23
+Ho Chin Minh City,Vietnam,2019,10.787,106.693,vietnam.jpg,40
+Mexico City,Mexico,2007,19.1188,-98.9241,mexico.jpg,14
+West Bay,Cayman Islands,2007,19.3022,-81.2528,cayman.jpg,43
+Dublin,Ireland,2016,53.3553,-6.2697,ireland.jpg,34
+London,United Kingdom,2016,51.541,-0.202,uk.jpg,56
+Paris,France,2016,49.049612486875965, 2.3756486180914953,france.jpg,63
+Madrid,Spain,2016,40.730973689924056,-3.9162941752167484,spain.jpg,13
+Rome,Italy,2016,41.79747818182913,13.258601967271913,italy.jpg,25
+Zürich,Switzerland,2016,47.41940585994129,8.574084000032594,switzerland.jpg,45
+Berlin,Germany,2016,52.70319899264736,13.416739804142578,germany.jpg,31
+Vienna,Austria,2016,48.292309575065836,16.46424662618485,austria.jpg,64
+Amsterdam,Netherlands,2016,52.3596151617708,4.880607507475142,netherlands.jpg,63
+Zagreb,Croatia,2016,45.92711741452469,16.140957128114525,croatia.jpg,24
+Budapest,Hungary,2016,47.56352933715933,19.052821452326363,hungary.jpg,67
+Prague,Czech Republic,2016,50.14255353411129,14.550577293198995,czech.jpg,42
+Athens,Greece,2009,38.1985,23.7035,greece.jpg,30
+Bangkok,Thailand,2019,13.755,100.539,thailand.jpg,36

@@ -1,16 +1,13 @@
-.edu-item {
-    padding: var(--base-px-m) 0;
-}
-  
-.edu-headings {
-    display: flex;
-    padding: var(--base-px-sm) 0;
-    justify-content: space-between;
-}
-
 .edu-time {
     font-style: italic;
     font-weight: 500;
+}
+.edu-subtitle {
+    font-style: italic;
+    text-align: right;
+}
+.edu-title {
+    text-align: left;
 }
 
 .education ul {
